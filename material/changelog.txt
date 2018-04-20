@@ -1,4 +1,13 @@
 == Changelog ==
+= 1.2 = Release date: April 20, 2018
+* ACCESSIBILITY COMPLIANCE
+* Removed extra empty <a></a> tags on the individual plugin's action links
+* Increased contrast between background color and foreground color of action buttons
+* Wrapped the menu navigation links (plugin categories and status) <nav></nav> tags with ARIA Landmark role "navigation". More info: https://a11yproject.com/posts/aria-landmark-roles/
+* Added support for ARIA, including roles and properties. Example: the search box on the menu now as a role "search". More info: https://www.w3.org/TR/wai-aria-1.1/
+* Improved visual behavior of action buttons during hover, active, and focus states on each of the individual plugin cards.
+* Filter count changes when the filters are used.
+
 
 = 1.11 = Release date: December 5th, 2017
 * NEW FEATURES
